@@ -1,3 +1,5 @@
+drop table population;
+drop table gdp;
 -- Create tables for raw data to be loaded into
 CREATE TABLE population (
 id INT PRIMARY KEY,
@@ -13,7 +15,8 @@ YR_2014 FLOAT,
 YR_2015 FLOAT,
 YR_2016 FLOAT,
 YR_2017 FLOAT, 
-YR_2018 FLOAT);
+YR_2018 FLOAT
+);
 	
 CREATE TABLE gdp (
 id INT PRIMARY KEY,
@@ -29,4 +32,7 @@ YR_2014 FLOAT,
 YR_2015 FLOAT,
 YR_2016 FLOAT,
 YR_2017 FLOAT, 
-YR_2018);
+YR_2018 FLOAT
+);
+select * from population
+select * from gdp
