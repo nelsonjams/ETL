@@ -36,3 +36,9 @@ YR_2018 FLOAT
 );
 select * from population
 select * from gdp
+
+SELECT * 
+FROM population
+UNION
+SELECT * from gdp
+where country_name = country_name;
